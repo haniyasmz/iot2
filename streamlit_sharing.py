@@ -21,6 +21,9 @@ st.set_page_config(
 def init_connection():
     return psycopg2.connect(**st.secrets["postgres"])
 
+# st.write("DB username:", st.secrets["db_username"])
+# st.write("DB password:", st.secrets["db_password"])
+
 # def init_connection():
 #     return psycopg2.connect(host='localhost',
 #         database='smart_hand_sanitizer',
