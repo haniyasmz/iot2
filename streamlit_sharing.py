@@ -7,9 +7,9 @@ Created on 12 Jan 2023
 import streamlit as st
 import pandas as pd
 import psycopg2
-from sqlalchemy import create_engine
-import plotly.express as px  # interactive charts
-import time
+# from sqlalchemy import create_engine
+# import plotly.express as px  # interactive charts
+# import time
 
 st.set_page_config(
     page_title="Real-Time Data Science Dashboard",
